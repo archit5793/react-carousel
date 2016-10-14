@@ -10,4 +10,8 @@ function Carousel (props) {
   );
 }
 
+Carousel.propTypes = {
+  src : React.PropTypes.string.isRequired
+}
+
 module.exports = Carousel;
